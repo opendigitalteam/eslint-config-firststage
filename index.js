@@ -1,10 +1,6 @@
 module.exports = {
-  configs: {
-    all: {
-      plugins: ["firststage"],
-      rules: {
-        "firststage/server-actions": "error",
-      },
-    },
+  plugins: ["firststage"],
+  rules: {
+    "firststage/server-actions": "error",
   },
 };
