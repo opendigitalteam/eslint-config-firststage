@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ["@firststage/eslint-plugin-firststage"],
   rules: {
-    "firststage/server-actions": "error",
+    "@firststage/firststage/server-actions": "error",
   },
 };
